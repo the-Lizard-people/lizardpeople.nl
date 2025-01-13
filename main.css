@@ -65,3 +65,28 @@ font-weight: bold;
 .wij_hebben{
     font-size: 2.5rem;
 }
+.part_3_person{
+    width: 96%;
+    padding: 1em;
+    height: 25rem;
+    border-radius: 15px;
+    margin: 2%;
+    text-align: left;
+
+    background-color: whitesmoke;
+}
+.part_3_person img{
+    width: 48%;
+    left: 1;
+    border-radius: 15px;
+    position: relative;
+}
+.pasta{
+    font-size: 2rem;
+}
+.part_3_person_text{
+    position: relative;
+    float: right;
+    width: 48%;
+    font-size: 1.4rem;
+}
