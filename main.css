@@ -1,0 +1,67 @@
+.part_1_tekst_onder{
+    background: rgb(1,247,255);
+    background: linear-gradient(180deg, rgba(1,247,255,1) 0%, rgba(21,96,217,1) 100%);
+    font-size: 200%;
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;-clip: text;
+    -moz-text-fill-color: transparent;
+    margin-top: -70px;
+}
+.part_1{
+    font-family: Arial, Helvetica, sans-serif;
+        font-size: 500%;
+    font-weight: bold;
+    padding-bottom: 370px;
+}
+.part_1_tekst{
+    text-align: center;
+    position: relative;
+    margin-top: 15%;
+    height: 33%;
+}
+body{
+    color: black !important; 
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+
+.topbar{
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    top: 0px;
+    font-size: 2rem;
+    text-decoration: none;
+    
+}
+.topbar a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.part_2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 6%;
+    margin-right: 10%;
+    font-size: 2rem;
+
+}
+.wij_hebben{
+    font-size: 2.5rem;
+}
