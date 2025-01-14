@@ -33,25 +33,9 @@ body{
 font-weight: bold;
     background-color: rgb(255, 255, 255);
     text-align: center;
+    padding: 0%;
 
 }
-
-
-.topbar{
-    border-radius: 25px;
-    border-color: white;
-    border-style: solid;
-    border-width: 1px;
-    top: 0px;
-    font-size: 2rem;
-    text-decoration: none;
-    
-}
-.topbar a{
-    text-decoration: none;
-    color: white;
-}
-
 
 .part_2{
     display: flex;
@@ -90,3 +74,49 @@ font-weight: bold;
     width: 48%;
     font-size: 1.4rem;
 }
+
+
+.topbar {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1em;
+    text-align: center;
+    font-size: 2rem;
+    position: fixed;
+    top: 0;
+    z-index: 99999999;
+    height: 0.1em;
+    width: 100%;
+  }
+  
+  .topbar .logo {
+    float: left;
+    font-size: 3rem;
+    margin-right: 1em;
+  }
+  
+  .topbar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .topbar nav li {
+    margin-right: 20px;
+  }
+  
+  .topbar nav a {
+    color: #242424;
+    text-decoration: none;
+  }
+  
+  .topbar nav a:hover {
+    font-size: 2.4rem;
+  }
+  .topbar nav {
+    margin-top: -20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
