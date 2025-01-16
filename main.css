@@ -43,11 +43,11 @@ font-weight: bold;
     text-align: center;
     margin-left: 6%;
     margin-right: 10%;
-    font-size: 2rem;
+    font-size: 200%;
 
 }
 .wij_hebben{
-    font-size: 2.5rem;
+    font-size: 250%;
 }
 .part_3_person{
     width: 96%;
@@ -66,13 +66,13 @@ font-weight: bold;
     position: relative;
 }
 .pasta{
-    font-size: 2rem;
+    font-size: 200%;
 }
 .part_3_person_text{
     position: relative;
     float: right;
     width: 48%;
-    font-size: 1.4rem;
+    font-size: 140%;
 }
 
 
@@ -81,11 +81,11 @@ font-weight: bold;
     color: #000000;
     padding: 1em;
     text-align: center;
-    font-size: 2rem;
+    font-size: 200%;
     position: fixed;
     top: 0;
     z-index: 99999999;
-    height: 0.1em;
+    height: 0.01%;
     width: 100%;
   }
   
